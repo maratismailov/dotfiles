@@ -1,0 +1,38 @@
+# Copyright (c) 2016-present Arctic Ice Studio <development@arcticicestudio.com>
+# Copyright (c) 2016-present Sven Greb <code@svengreb.de>
+
+# Project:    Nord Termite
+# Repository: https://github.com/arcticicestudio/nord-termite
+# License:    MIT
+
+[options]
+font = Roboto Mono 12
+cursor_shape = ibeam 
+
+[colors]
+cursor = #d8dee9
+cursor_foreground = #2e3440
+
+foreground = #7EB2B8
+foreground_bold = #7EB2B8
+#background = rgba(69, 126, 132, 0.8)
+background = rgba(59, 95, 99, 0.8)
+
+highlight = #4c566a
+
+color0  = #3b4252
+color1  = #bf616a
+color2  = #a3be8c
+color3  = #ebcb8b
+color4  = #81a1c1
+color5  = #b48ead
+color6  = #88c0d0
+color7  = #e5e9f0
+color8  = #4c566a
+color9  = #bf616a
+color10 = #a3be8c
+color11 = #ebcb8b
+color12 = #81a1c1
+color13 = #b48ead
+color14 = #8fbcbb
+color15 = #eceff4

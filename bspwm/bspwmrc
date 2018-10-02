@@ -1,0 +1,34 @@
+#! /bin/sh
+
+sxhkd &
+
+bspc monitor -d common web media terminal telegram thunderbird filemanager texteditor code gitkraken misc
+
+bspc config border_width         0
+bspc config window_gap          9
+
+bspc config split_ratio          0.52
+bspc config borderless_monocle   true
+bspc config gapless_monocle      true
+
+bspc rule -a Gimp desktop='^8' state=floating follow=on
+bspc rule -a spark desktop='^8'
+bspc rule -a Thunderbird desktop='^6'
+bspc rule -a Chromium desktop='^2'
+bspc rule -a vlc desktop='^3'
+bspc rule -a mplayer2 state=floating
+bspc rule -a Kupfer.py focus=on
+bspc rule -a Screenkey manage=off
+bspc rule -a border=off
+bspc config -a top_padding 0
+bspc rule -a vlc state=floating
+bspc rule -a Spark state=floating
+
+$HOME/.config/polybar/launch.sh
+#$HOME/.config/bspwm/autostart_scripts/autostart
+compton &
+thunderbird &
+spark &
+
+feh --bg-center ~/Downloads/peeckh/398419.jpg
+setxkbmap -layout us,ru -variant ,winkeys -option grp:caps_toggle,grp_led:scroll,terminate:ctrl_alt_bksp,compose:ralt
