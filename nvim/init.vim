@@ -17,6 +17,10 @@ set autoindent
 set smartindent
 set title
 
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+
 
 let g:formatterpath = ['/some/path/to/a/folder', '/home/superman/formatters']
-
+let g:deoplete#enable_at_startup = 1
+let g:neosnippet#enable_completed_snippet = 1
