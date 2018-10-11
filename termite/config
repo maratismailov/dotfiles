@@ -10,29 +10,41 @@ font = Roboto Mono 12
 cursor_shape = ibeam 
 
 [colors]
-cursor = #d8dee9
-cursor_foreground = #2e3440
 
-foreground = #7EB2B8
-foreground_bold = #7EB2B8
-#background = rgba(69, 126, 132, 0.8)
-background = rgba(59, 95, 99, 0.8)
+# special
+foreground      = #98d1ce
+foreground_bold = #98d1ce
+cursor          = #98d1ce
+background      = #0a0f14
 
-highlight = #4c566a
+# black
+color0  = #0a0f14
+color8  = #10151b
 
-color0  = #3b4252
-color1  = #bf616a
-color2  = #a3be8c
-color3  = #ebcb8b
-color4  = #81a1c1
-color5  = #b48ead
-color6  = #88c0d0
-color7  = #e5e9f0
-color8  = #4c566a
-color9  = #bf616a
-color10 = #a3be8c
-color11 = #ebcb8b
-color12 = #81a1c1
-color13 = #b48ead
-color14 = #8fbcbb
-color15 = #eceff4
+# red
+color1  = #c33027
+color9  = #d26939
+
+# green
+color2  = #26a98b
+color10 = #081f2d
+
+# yellow
+color3  = #edb54b
+color11 = #245361
+
+# blue
+color4  = #195465
+color12 = #093748
+
+# magenta
+color5  = #4e5165
+color13 = #888ba5
+
+# cyan
+color6  = #33859d
+color14 = #599caa
+
+# white
+color7  = #98d1ce
+color15 = #d3ebe9
