@@ -72,8 +72,6 @@ let s:BrightBlue =   { 'gui': '#007acc', 'cterm16': '04', 'cterm': '33'  }
 let s:Cyan =         { 'gui': '#4ec9b0', 'cterm16': '06', 'cterm': '43'  }
 let s:Magenta =      { 'gui': '#c586c0', 'cterm16': '13', 'cterm': '176' }
 let s:Violet =       { 'gui': '#646695', 'cterm16': '07', 'cterm': '60'  }
-let s:indent1 =      { 'gui': '#404010', 'cterm16': '16', 'cterm': '#404010' }
-let s:indent2 =      { 'gui': '#204020', 'cterm16': '17', 'cterm': '#204020'  }
 " #3b629d
 " let s:cdSearch =        { 'gui': '#4c4e50', 'cterm16': '03', 'cterm': '239' }
 " let s:cdSearchCurrent = { 'gui': '#49545f', 'cterm16': '09', 'cterm': '239' }
@@ -97,8 +95,6 @@ let g:terminal_color_12 = s:Blue.gui          " bright_blue
 let g:terminal_color_13 = s:Magenta.gui       " bright_magenta
 let g:terminal_color_14 = s:Cyan.gui          " bright_cyan
 let g:terminal_color_15 = s:White.gui         " bright_white
-let g:terminal_color_88 = s:indent1.gui          " bright_cyan
-let g:terminal_color_99 = s:indent2.gui         " bright_white
 let g:terminal_color_background = g:terminal_color_0
 let g:terminal_color_foreground = g:terminal_color_7
 " }}}
@@ -128,7 +124,7 @@ call s:h('Underlined',   {'gui': 'underline', 'cterm': 'underline'})
 " }}}
 " ==============================================================================
 " Scopes: {{{
-call s:h('Comment',      {'fg': s:Gray,    'gui': 'italic', 'cterm': 'italic'})
+call s:h('Comment',      {'fg': s:Green,    'gui': 'italic', 'cterm': 'italic'})
 call s:h('DocString',    {'fg': s:Green,   'gui': 'italic', 'cterm': 'italic'})
 call s:h('PlainText',    {'fg': s:White,   'bg': s:nop})                              " Plain text.
 call s:h('Control',      {'fg': s:Magenta, 'bg': s:nop})                              " Mainly related to flow control like `continue`, `while`, `return`, etc.
